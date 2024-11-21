@@ -1,35 +1,105 @@
 <!DOCTYPE HTML>
 <html>
     <head>
-        <title>
-             weapons login</title>
-        <link rel="stylesheet"  href="style_1.css">
-    </head>
-    
-    <body> 
-        
-        <form>
-            <form action="wildlife.html" method="get">
-            first name: <input type="text" required><br>
-            last name:  <input type="text" required><br>
-            email: <input type="email" required><br>
-            password: <input type="password" min="5" required><br>
-            birthday:<input type="date" required><br>
-            gender:<br>
-            <input type="radio" name="gender" required>Male<br>
-            <input type="radio" name="gender" required>Female<br>
-            <br>
-            <input type="submit" value="save">
-            <input type="reset" value="clear">   
+        <title>Weapons Login</title>
+        <style>
+            /* General Body Styling */
+            body {
+                font-family: Arial, sans-serif;
+                background-image: url(https://img.freepik.com/premium-photo/bullet-isolated-dark-background-concept-war-combat-clash-cartridges-rifle-3d-illustration-3d-render_99433-9117.jpg); /* Replace with your image path */
+                background-size: cover;
+                background-attachment: fixed;
+                color: #fff;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+                margin: 0;
+            }
 
+            /* Form Container */
+            form {
+                background-color: rgba(0, 0, 0, 0.7);
+                padding: 20px 30px;
+                border-radius: 15px;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+                width: 300px;
+            }
+
+            /* Input Fields */
+            input[type="text"],
+            input[type="email"],
+            input[type="password"],
+            input[type="date"],
+            input[type="radio"] {
+                width: calc(100% - 20px);
+                margin: 10px 0;
+                padding: 10px;
+                border: none;
+                border-radius: 5px;
+                outline: none;
+                background-color: #eee;
+                font-size: 1rem;
+            }
+
+            input[type="radio"] {
+                width: auto;
+            }
+
+            /* Buttons */
+            input[type="submit"],
+            input[type="reset"],
+            button {
+                background-color: #28a745;
+                color: white;
+                padding: 10px 15px;
+                margin: 10px 5px;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+                transition: background-color 0.3s ease-in-out;
+                font-weight: bold;
+            }
+
+            input[type="submit"]:hover,
+            input[type="reset"]:hover,
+            button:hover {
+                background-color: #218838;
+            }
+
+            /* "Continue Without Account" Button */
+            a button {
+                background-color: #007bff;
+                padding: 10px 15px;
+                text-align: center;
+                border-radius: 5px;
+                text-decoration: none;
+            }
+
+            a button:hover {
+                background-color: #0056b3;
+            }
+        </style>
+    </head>
+
+    <body>
+        <form action="wildlife.html" method="get">
+            First Name: <input type="text" required><br>
+            Last Name:  <input type="text" required><br>
+            Email: <input type="email" required><br>
+            Password: <input type="password" min="5" required><br>
+            Birthday: <input type="date" required><br>
+            Gender:<br>
+            <input type="radio" name="gender" value="male" required> Male<br>
+            <input type="radio" name="gender" value="female" required> Female<br>
+            <br>
+            <input type="submit" value="Save">
+            <input type="reset" value="Clear">
         </form>
         <a href="wildlife.html">
-            <button>
-                <strong>
-                    CONTINUE WITHOUT ACCOUNT
-                </strong>
+            <button type="button">
+                <strong>CONTINUE WITHOUT ACCOUNT</strong>
             </button>
         </a>
-        <script type="text/javascript"  src="js example facebook.js"></script>
     </body>
 </html>
