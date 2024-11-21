@@ -14,8 +14,8 @@ var new_feed=[
     timeline: "naan thaan da leo"
     },
     {
-        username:"mommy",
-        tineline:"ahh mommy"
+        username:"vijay_tvk",
+        tineline:"keerthy is my wife"
     }
 ];
 
