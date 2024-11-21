@@ -34,7 +34,7 @@ function signin(username,password){
         console.log(new_feed);
      }
      else{
-        alert("the fuck are you doing nigga")
+        alert("restricted entry")
      }
     }
     var usernamePrompt=prompt("what's ur name");
